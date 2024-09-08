@@ -129,6 +129,33 @@ export default function Home() {
           </li>
         </ol>
       </section>
+      <section className="mt-10 mx-10">
+        <h2 className="text-2xl font-semibold">
+          Organisasi
+        </h2>
+        <ol className="relative border-s border-gray-200 dark:border-gray-700">
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2023 - Sekarang</time>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Wakil Ketua Komunitas Guru penggerak kab. Gresik</h3>
+          </li>
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2021 - Sekarang</time>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Bidang Hubungan Masyarakat GPMB (Gerakan Pemasyarakatan Minat Baca) kab Gresik</h3>
+          </li>
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2019 - Sekarang</time>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Wakil Ketua MGMP Matematika  kab. Gresik</h3>
+          </li>
+          <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2017 - Sekarang</time>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Sekjen Majelis Dikdasmen dan PNF  PDM Gresik</h3>
+          </li>
+        </ol>
+      </section>
       <br />
       <br />
       <hr />
@@ -169,6 +196,168 @@ export default function Home() {
       <hr />
       <div className="mt-10">
         <h1 className="text-center text-4xl font-bold my-4">Pengembangan Diri</h1>
+        <div className="flex flex-wrap justify-around">
+          <div className="p-4 md:basis-1/2">
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pendidikan Guru Penggerak dan Pengajar Praktek</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Saya mengembangkan  kompetensi saya melalui kegiatan Pendidikan Guru penggerak. Pendidikan ini memberikan cara pandang yang  luar biasa, bahwa murid adalah pribadi unik yang harus dilayani secara unik juga.</p>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/2">
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bimtek Pelatih Guru Matematika Jawa Timur
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400 italic">
+                {`"This person's dedication and attention to detail significantly contributed to project success. Their creativity and ability to meet tight deadlines set them apart"`}
+              </p>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/2">
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Penggerak Merdeka Belajar</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Penggerak Merdeka belajar (Pendekar) adalah sebuah program yang diperuntukkan bagi guru penggerak untuk menjadi penggerak komunitas dalam mengaplikasikan merdeka belajar.</p>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/2">
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white italic">Great Teacher: Hypnoteaching</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Sebuah upaya untuk menigkatkan kualitas pembelajaran di kelas dengan kemampuan menuntun pola pikir siswa menjadi lebih positif.</p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-wrap justify-around items-stretch px-4">
+          <div className="md:basis-1/3 p-2">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/Guru Penggerak dan pengajar praktek.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pendidikan guru penggerak Angkatan 6 kabupaten Gresik dan 
+                    Pengajar prakter Angkatan 10 kabupaten Gresik</h5>
+                </div>
+            </div>
+          </div>
+          <div className="md:basis-1/3 p-2">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/PKGM.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pelatihan Pelatih Guru  Matematika Provinsi Bersama Casio, dengan materi media belajar digital, penerapan STEM dan Inpsirasi pembelajaran, juli 2024</h5>
+                </div>
+            </div>
+          </div>
+          <div className="md:basis-1/3 p-2">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/Hynoteaching.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hypno teaching, pemguatan karakter siswa melalui hyno teaching, oktober 2022</h5>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <hr />
+      <div className="mt-10">
+        <h1 className="text-center text-4xl font-bold my-4">Aksi Nyata</h1>
+        <div className="flex flex-wrap justify-around items-stretch">
+          <div className="p-4 md:basis-1/3">
+            <div className="block h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Sahabat Perpusnema</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Sebuah komunitas yang saya kembangkan sejak tahun 2018-sekarang. Dengan anggota siswa yang mempunyai kepedulian tinggi terhadap pengembangan program perpustakaan.</p>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/3">
+            <div className="block h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMANEMA Youth Influencer</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Komunitas yang saya inisiasi pada bukan oktober 2022. Anggota dari komunitas ini adalah para influencer muda (sisiwa) SMAN 1 Manyar. Komunitas ini menggunakan berbagai media untuk membuat konten positif. 
+              Salah satu Programnya adalah Bimbingan Teman Sebaya (BTS) yang menjadi jembatan antara BK dan siswa yang memiliki pwemsalahan baik akademik maupun non akademik.</p>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/3">
+            <div className="block h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pembelajaran Inovatif</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400"><b>Pembelajaran Bermakna</b> pada materi Trigonometri dengan menggunakan alat sederhana.<br /> 
+              <a href="https://www.youtube.com/watch?v=lTeTs1LY4Eo&t=149s" target="blank">Contoh Video</a></p>
+              <br/>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <b>Pembelajaran Berdifferensiasi</b>  
+              Pembelajaran yang memenuhi kebutuhan belajar siswa, yaitu gaya belajar. Dengan terdeferensiasi Produk, dan konten
+              </p>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/3">
+            <div className="block h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Posnema</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Sebuah program yang saya prakarsai untuk menjawab kebutuhan masyarakat tentang informasi sekolah. Misalnya tentang Proses PPDB yang mendapat banyak respon positif dari masyarakat.
+                Podcast ini tayang di channel <b>youtube 
+                Smanemagresik official tv</b>.
+              </p>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/3">
+            <div className="block h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lentera Podcast</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Podcast yang dilaunching pada tanggal 17 agustus 2021. 
+
+                Tujuan Pendirian: 
+                Memberikan informasi yang tepat pada masyarakat berkenaan dengan info pembelajarn di masa pandemi.
+                Saat ini Lentera Podcast banyak menayangkan informasi pendidikan dan membantu sekolah sekolah untuk melakukan branding sekolahnya. 
+                Program ini ditayangkan di channel <b>youtube majelis Dikdasmen PDM Gresik</b>.
+              </p>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/3">
+            <div className="block h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pendampingan Teman Sejawat</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+              Pendampingan teman sejawat yang telah dilakukan:
+              <ol className="list-decimal pl-5">
+                <li>Sebagai dosen pamong Program Profesional Guru sejak tahun 2017 sampai sekarang.</li>
+                <li>Menjadi narasumber di berbagai kegiatan pembinaan guru.</li>
+                <li>Menjadi Narasumber di berbagai kegiatan untuk pustakawan diantaranya yang diadakan oleh Perguruan Muhammadiyah kab. Gresik, Universitas Surabaya.</li>
+              </ol>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-wrap justify-around items-stretch px-4">
+          <div className="md:basis-1/3 p-2">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/Guru Penggerak dan pengajar praktek.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pendidikan guru penggerak Angkatan 6 kabupaten Gresik dan 
+                    Pengajar prakter Angkatan 10 kabupaten Gresik</h5>
+                </div>
+            </div>
+          </div>
+          <div className="md:basis-1/3 p-2">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/PKGM.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pelatihan Pelatih Guru  Matematika Provinsi Bersama Casio, dengan materi media belajar digital, penerapan STEM dan Inpsirasi pembelajaran, juli 2024</h5>
+                </div>
+            </div>
+          </div>
+          <div className="md:basis-1/3 p-2">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/Hynoteaching.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hypno teaching, pemguatan karakter siswa melalui hyno teaching, oktober 2022</h5>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <hr />
+      <div className="mt-10">
+        <h1 className="text-center text-4xl font-bold my-4">Prestasi</h1>
         <div className="flex flex-wrap justify-around">
           <div className="p-4 md:basis-1/2">
             <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
