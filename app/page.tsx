@@ -279,10 +279,11 @@ export default function Home() {
             <div className="block h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pembelajaran Inovatif</h5>
               <p className="font-normal text-gray-700 dark:text-gray-400"><b>Pembelajaran Bermakna</b> pada materi Trigonometri dengan menggunakan alat sederhana.<br /> 
-              <a href="https://www.youtube.com/watch?v=lTeTs1LY4Eo&t=149s" target="blank">Contoh Video</a></p>
+              <a className="text-cyan-500 hover:text-gray-700" href="https://www.youtube.com/watch?v=lTeTs1LY4Eo&t=149s" target="blank">Contoh Video</a>
+              </p>
               <br/>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-              <b>Pembelajaran Berdifferensiasi</b>  
+              <b>Pembelajaran Berdifferensiasi </b>  
               Pembelajaran yang memenuhi kebutuhan belajar siswa, yaitu gaya belajar. Dengan terdeferensiasi Produk, dan konten
               </p>
             </div>
@@ -322,32 +323,119 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <h4 className="ml-8 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Podcast Smanema</h4>
+        <div className="flex flex-wrap justify-around items-stretch px-4">
+          <div className="md:basis-1/2 p-2">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/pod-ppdb.png"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Podcast interaktif Kupas Tuntas PPDB 2022 yang selalu mendpat respon positif dari berbagai lapisan Masyarakat yang membutuhkan informasi resmi tentang prosedur PPDB.
+                    </h5>
+                </div>
+            </div>
+          </div>
+          <div className="md:basis-1/2 p-2">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/pod-rs.jpg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Podcast interaktif tentang Pembelajarn tatap muka terbatas, Bersama direktur Rumah Sakit Muhammadiyah Gresik dan Direktur MC3</h5>
+                </div>
+            </div>
+          </div>
+        </div>
+        <h4 className="ml-8 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Sahabat Perpusnema</h4>
         <div className="flex flex-wrap justify-around items-stretch px-4">
           <div className="md:basis-1/3 p-2">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
                 
-                <Image className="rounded-t-lg" src={"/img/Guru Penggerak dan pengajar praktek.jpeg"} alt="" width={500} height={500} />
+                <Image className="rounded-t-lg" src={"/img/dorse-sahabat perpustakaan.jpeg"} alt="" width={500} height={500} />
+                {/* <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Podcast interaktif Kupas Tuntas PPDB 2022 yang selalu mendpat respon positif dari berbagai lapisan Masyarakat yang membutuhkan informasi resmi tentang prosedur PPDB.
+                    </h5>
+                </div> */}
+            </div>
+          </div>
+          <div className="md:basis-1/3 p-2">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/Prestasi sahabat perpusnema.jpeg"} alt="" width={500} height={500} />
                 <div className="p-5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pendidikan guru penggerak Angkatan 6 kabupaten Gresik dan 
-                    Pengajar prakter Angkatan 10 kabupaten Gresik</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Juara 1 dan 4 cerdas cermat pekan literasi, agustus 2024</h5>
                 </div>
             </div>
           </div>
           <div className="md:basis-1/3 p-2">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
                 
-                <Image className="rounded-t-lg" src={"/img/PKGM.jpeg"} alt="" width={500} height={500} />
+                <Image className="rounded-t-lg" src={"/img/intan savilla -juara 2 essai.jpg"} alt="" width={500} height={500} />
                 <div className="p-5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pelatihan Pelatih Guru  Matematika Provinsi Bersama Casio, dengan materi media belajar digital, penerapan STEM dan Inpsirasi pembelajaran, juli 2024</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Juara 2 melunis essay yang diselenggarakan perpustakaan Pelangi selengkapnya ada di
+                      <a className="text-cyan-500 hover:text-gray-700" href="https://klikjatim.com/esai-pemenang-lomba-ayo-suarakan-gagasanmu-yang-digelar-smelting-dan-rumah-pelangi-inspiratif-dan-kritis/" target="blank"> link berikut</a>
+                    </h5>
+                </div>
+            </div>
+          </div>
+        </div>
+        <h4 className="ml-8 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pendampingan Teman Sejawat</h4>
+        <div className="flex flex-wrap justify-around items-stretch px-4">
+          <div className="md:basis-1/3 p-2">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/keminfo.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Narasumber webinar Bersama KOMINFO: kecakapan digital.
+                    </h5>
                 </div>
             </div>
           </div>
           <div className="md:basis-1/3 p-2">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
                 
-                <Image className="rounded-t-lg" src={"/img/Hynoteaching.jpeg"} alt="" width={500} height={500} />
+                <Image className="rounded-t-lg" src={"/img/Pendampingan pustakawan.jpeg"} alt="" width={500} height={500} />
                 <div className="p-5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hypno teaching, pemguatan karakter siswa melalui hyno teaching, oktober 2022</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pembinaan Pustakawan Sekolah sekolah Muhammadiyah se kab. Gresik</h5>
+                </div>
+            </div>
+          </div>
+          <div className="md:basis-1/3 p-2">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/Perpust ubaya.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Narasumber  berbagi praktik baik Program perpustakaan Bersama pustakan se jatim di Ubaya
+                    </h5>
+                </div>
+            </div>
+          </div>
+          <div className="md:basis-1/3 p-2">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/PPG.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pembinaan Pustakawan Sekolah sekolah Muhammadiyah se kab. Gresik
+                    </h5>
+                </div>
+            </div>
+          </div>
+          <div className="md:basis-1/3 p-2">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/Workshop Guru perguruan menganti, driyo rejo dan wringinanom.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pendampingan penerapan  kurikulum Merdeka tentor Kejar paket C PKBM as salafiyah Gresik
+                    </h5>
+                </div>
+            </div>
+          </div>
+          <div className="md:basis-1/3 p-2">
+            <div className="m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                
+                <Image className="rounded-t-lg" src={"/img/nasum.jpg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Narasumber  di berbagai kegiatan Pembinaan Guru dan Tendik
+                    </h5>
                 </div>
             </div>
           </div>
@@ -387,33 +475,27 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <h4 className="ml-8 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hasil Karya Buku Antologi</h4>
         <div className="flex flex-wrap justify-around items-stretch px-4">
           <div className="md:basis-1/3 p-2">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
-                <Image className="rounded-t-lg" src={"/img/Guru Penggerak dan pengajar praktek.jpeg"} alt="" width={500} height={500} />
-                <div className="p-5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pendidikan guru penggerak Angkatan 6 kabupaten Gresik dan 
-                    Pengajar prakter Angkatan 10 kabupaten Gresik</h5>
-                </div>
+                <Image className="rounded-t-lg" src={"/img/buku 1.jpeg"} alt="" width={500} height={500} />
+                
             </div>
           </div>
           <div className="md:basis-1/3 p-2">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
-                <Image className="rounded-t-lg" src={"/img/PKGM.jpeg"} alt="" width={500} height={500} />
-                <div className="p-5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pelatihan Pelatih Guru  Matematika Provinsi Bersama Casio, dengan materi media belajar digital, penerapan STEM dan Inpsirasi pembelajaran, juli 2024</h5>
-                </div>
+                <Image className="rounded-t-lg" src={"/img/Buku Ke 2.jpeg"} alt="" width={500} height={500} />
+                
             </div>
           </div>
           <div className="md:basis-1/3 p-2">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
-                <Image className="rounded-t-lg" src={"/img/Hynoteaching.jpeg"} alt="" width={500} height={500} />
-                <div className="p-5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hypno teaching, pemguatan karakter siswa melalui hyno teaching, oktober 2022</h5>
-                </div>
+                <Image className="rounded-t-lg" src={"/img/Buku ke 3.jpeg"} alt="" width={500} height={500} />
+                
             </div>
           </div>
         </div>
