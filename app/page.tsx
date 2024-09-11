@@ -254,6 +254,24 @@ export default function Home() {
                 </div>
             </div>
           </div>
+          <div className="md:basis-1/2 p-2">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full m-auto">
+                
+                <Image className="rounded-t-lg" src={"/img/cipta alat.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Juri lomba karya cipta alat peraga yang diselenggarakan oleh dinas pendidikan kabupaten gresik dari tahun 2016</h5>
+                </div>
+            </div>
+          </div>
+          <div className="md:basis-1/2 p-2">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full m-auto">
+                
+                <Image className="rounded-t-lg" src={"/img/puisi anti korupsi.jpeg"} alt="" width={500} height={500} />
+                <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lomba puisi dan pidato anti korupsi di kejaksaan kab. Gresik</h5>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
       <br />
@@ -447,31 +465,71 @@ export default function Home() {
       <div className="mt-10">
         <h1 className="text-center text-4xl font-bold my-4">Prestasi</h1>
         <div className="flex flex-wrap justify-around">
-          <div className="p-4 md:basis-1/2">
+          <div className="p-4 md:basis-1/3">
             <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pendidikan Guru Penggerak dan Pengajar Praktek</h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">Saya mengembangkan  kompetensi saya melalui kegiatan Pendidikan Guru penggerak. Pendidikan ini memberikan cara pandang yang  luar biasa, bahwa murid adalah pribadi unik yang harus dilayani secara unik juga.</p>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Penulis Cerpen Terbaik 2  Nasional</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Lomba diadakan oleh penerbit buku national “Lisa publishing” . 10 cerita terbaik  diterbitkan dalam sebuah buku berjudul “It’s Ok to be alone” 
+              Cerpen yang saya kirim berjudul perjalanan Rasa.</p>
             </div>
           </div>
-          <div className="p-4 md:basis-1/2">
+          <div className="p-4 md:basis-1/3">
             <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bimtek Pelatih Guru Matematika Jawa Timur
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Finalis Forum Ilmiah Guru nasional
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400 italic">
-                {`"This person's dedication and attention to detail significantly contributed to project success. Their creativity and ability to meet tight deadlines set them apart"`}
+                Diadakan oleh kementrian pendidikan nasional, dengan judul peneltian
+                Penerapan Stategi konflik Kognitif dalam mereduksi miskonsepsi pada materi permutasi dan kombinasi
               </p>
             </div>
           </div>
-          <div className="p-4 md:basis-1/2">
+          <div className="p-4 md:basis-1/3">
             <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Penggerak Merdeka Belajar</h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">Penggerak Merdeka belajar (Pendekar) adalah sebuah program yang diperuntukkan bagi guru penggerak untuk menjadi penggerak komunitas dalam mengaplikasikan merdeka belajar.</p>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Guru Prestasi Kab. Gresik</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Guru Prestasi Tingkat kabupaten pada jenjang SMA.</p>
             </div>
           </div>
-          <div className="p-4 md:basis-1/2">
+        </div>
+        <h4 className="ml-8 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hasil Karya Tulis</h4>
+        <div className="flex flex-wrap justify-around">
+          <div className="p-4 md:basis-1/3">
             <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white italic">Great Teacher: Hypnoteaching</h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">Sebuah upaya untuk menigkatkan kualitas pembelajaran di kelas dengan kemampuan menuntun pola pikir siswa menjadi lebih positif.</p>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cerpen</h5>
+              <div className="font-normal text-gray-700 dark:text-gray-400">
+                <ol className="list-decimal pl-5">
+                  <li>{'“Keihlasanku”  dimuat di buku antology berjudul Catatan Heroik Perempuan Tangguh'}</li>
+                  <li>{'“Perjalana Rasa” dimuat di buku antologi berjudul It’s Okay to be alone'}</li>
+                  <li>{'“Tanpa Rasa” dimuat di buku antologi berjidul “after mariage”'}</li>
+                  <li>{'“Surgaku” dimuat di buku antologi “Simpul Hati untuk Buah hati”'}</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/3">
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Math for Grade XI
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400 italic">
+                Buku guru dan siswa  dalam bahasa ingris untuk pembelajaran matematika di SMA N 1  Manyar
+              </p>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/3">
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Artikel di Jurnal  Pendidikan</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Efektivitas Strategi Konflik Kognitif dalam meminimalisir miskonsepsi dan meningkatkan pemahaman matematika pada materi permutasi dan kombinasi.</p>
+            </div>
+          </div>
+          <div className="p-4">
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              PENERAPAN MODEL PEMBELAJARAN PJBL BERBASIS DESIGN THINKING BERBANTUAN MEDIA PEMBELAJARAN PROLIN UNTUK MENINGKATKAN KEMAMPUAN PEMECAHAN PESERTA DIDIK MENGATASAI MASALAH ANEMIA DI SMAN 1 MANYAR
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400 italic">
+                Sebuah inovasi pembelajaran yang beryujuan untuk meningkatkan karakter peduli, berfikir kreatif dan berkolaborasi serta kemampuan memecahkan masalah peserta didik. Model pembelajaran PjBL berbasis Design Thinking memberikan kesempatan kepad  dengan menerapkan untuk terlibat aktif dalam pembelajaran, bersuara dan melakukan aksi nyata dalam menyelesaikan permasalahan di sekitarnya.
+              </p>
+
+              <a className="text-cyan-500 hover:text-gray-700" href="https://docs.google.com/document/d/1xEjvpqxoSro8Oi2q0wgIdFaKR5SN11TH/edit?usp=sharing&ouid=109091264021396196762&rtpof=true&sd=true" target="blank">Baca Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -480,22 +538,49 @@ export default function Home() {
           <div className="md:basis-1/3 p-2">
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
-                <Image className="rounded-t-lg" src={"/img/buku 1.jpeg"} alt="" width={500} height={500} />
+                <Image className="rounded-lg" src={"/img/buku 1.jpeg"} alt="" width={500} height={500} />
                 
             </div>
           </div>
           <div className="md:basis-1/3 p-2">
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
-                <Image className="rounded-t-lg" src={"/img/Buku Ke 2.jpeg"} alt="" width={500} height={500} />
+                <Image className="rounded-lg" src={"/img/Buku Ke 2.jpeg"} alt="" width={500} height={500} />
                 
             </div>
           </div>
           <div className="md:basis-1/3 p-2">
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 
-                <Image className="rounded-t-lg" src={"/img/Buku ke 3.jpeg"} alt="" width={500} height={500} />
+                <Image className="rounded-lg" src={"/img/Buku ke 3.jpeg"} alt="" width={500} height={500} />
                 
+            </div>
+          </div>
+        </div>
+        <h4 className="ml-8 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hasil Karya Pembelajaran</h4>
+        <div className="flex flex-wrap justify-around">
+          <div className="p-4 md:basis-1/3">
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pembelajaran materi matriks dengan menggunakan galeri walk</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Bentuk Aktifitas: apembelajaran sebaya, siswa saling belajar melalui media /materi yang ditempel di dinding. Siswa akan mendapat informasi penyelesaian masalah melalui penjelasan siswa lainnya.</p>
+              <a className="text-cyan-500 hover:text-gray-700" href="https://www.facebook.com/share/p/xp2fdUkMyCwWDZGR/?mibextid=oFDknk" target="blank">Aktivitas Selengkapnya</a>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/3">
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pembelajaran PJBL materi Trigonometri
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400 italic">
+              Pembelajaran berbasis projek pada materi Penerapan Trigonometri dalam menyelesikan masalah. Siswa mengukur ketinggian benda benda tinggi yang ada di sekitar sekolah dengan menggunakan konsep trigonometri berbantuan media sederhana.
+              </p>
+              <a className="text-cyan-500 hover:text-gray-700" href="https://www.youtube.com/watch?v=lTeTs1LY4Eo" target="blank">Aktivitas Selengkapnya</a>
+            </div>
+          </div>
+          <div className="p-4 md:basis-1/3">
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pembelajaran Berdiferensiasi</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">Siswa adalah pribadi yang unik dengan kebutuhan belajar yang berbeda beda. Untuk memenuhi perbedaan kebutuhan tersebut maka perlu dilaksanakan pebelajaran dengan proses, konten dan produk yang bervariasi disesuaikan dengan kebutuhan dan kesiapan belajarnya yang dikenal dengan pembelajaran berdiferensiasi.</p>
+              <a className="text-cyan-500 hover:text-gray-700" href="https://www.youtube.com/watch?v=G1XUbiBJAOY" target="blank">Aktivitas Selengkapnya</a>
             </div>
           </div>
         </div>
