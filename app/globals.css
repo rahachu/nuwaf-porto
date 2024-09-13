@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.active-scroll-spy {
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}

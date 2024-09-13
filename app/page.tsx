@@ -1,9 +1,11 @@
+'use client'
 import Image from "next/image";
+import ScrollSpy from "react-ui-scrollspy";
 
 export default function Home() {
   return (
-    <div>
-      <section className="bg-center bg-cover bg-[url('https://unair.ac.id/wp-content/uploads/2016/10/SMAN-1-Manyar.jpg')] bg-gray-700 bg-blend-multiply mt-10">
+    <ScrollSpy>
+      <section id="" className="bg-center bg-cover bg-[url('/img/nuwaf%20banner.jpeg')] bg-gray-700 bg-blend-multiply mt-10">
           <div className="px-4 mx-auto max-w-screen-xl text-center py-56 lg:py-56">
               <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Nurul Wafiyah</h1>
               <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Guru matematika dengan gaya mengajar Rock and Roll dan penuh kejutan.</p>
@@ -156,6 +158,8 @@ export default function Home() {
           </li>
         </ol>
       </section>
+      <div id="keahlian">
+
       <br />
       <br />
       <hr />
@@ -191,6 +195,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </div>
+      <div id="char-dev">
+
       <br />
       <br />
       <hr />
@@ -274,6 +281,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </div>
+      <div id="aksi-nyata">
+
       <br />
       <br />
       <hr />
@@ -330,14 +340,16 @@ export default function Home() {
           <div className="p-4 md:basis-1/3">
             <div className="block h-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pendampingan Teman Sejawat</h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <div className="font-normal text-gray-700 dark:text-gray-400">
               Pendampingan teman sejawat yang telah dilakukan:
-              <ol className="list-decimal pl-5">
-                <li>Sebagai dosen pamong Program Profesional Guru sejak tahun 2017 sampai sekarang.</li>
-                <li>Menjadi narasumber di berbagai kegiatan pembinaan guru.</li>
-                <li>Menjadi Narasumber di berbagai kegiatan untuk pustakawan diantaranya yang diadakan oleh Perguruan Muhammadiyah kab. Gresik, Universitas Surabaya.</li>
-              </ol>
-              </p>
+              <div>
+                <ol className="list-decimal pl-5">
+                  <li>Sebagai dosen pamong Program Profesional Guru sejak tahun 2017 sampai sekarang.</li>
+                  <li>Menjadi narasumber di berbagai kegiatan pembinaan guru.</li>
+                  <li>Menjadi Narasumber di berbagai kegiatan untuk pustakawan diantaranya yang diadakan oleh Perguruan Muhammadiyah kab. Gresik, Universitas Surabaya.</li>
+                </ol>
+              </div>
+              </div>
             </div>
           </div>
         </div>
@@ -459,6 +471,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </div>
+      <div id="prestasi">
+
       <br />
       <br />
       <hr />
@@ -529,7 +544,7 @@ export default function Home() {
                 Sebuah inovasi pembelajaran yang beryujuan untuk meningkatkan karakter peduli, berfikir kreatif dan berkolaborasi serta kemampuan memecahkan masalah peserta didik. Model pembelajaran PjBL berbasis Design Thinking memberikan kesempatan kepad  dengan menerapkan untuk terlibat aktif dalam pembelajaran, bersuara dan melakukan aksi nyata dalam menyelesaikan permasalahan di sekitarnya.
               </p>
 
-              <a className="text-cyan-500 hover:text-gray-700" href="https://docs.google.com/document/d/1xEjvpqxoSro8Oi2q0wgIdFaKR5SN11TH/edit?usp=sharing&ouid=109091264021396196762&rtpof=true&sd=true" target="blank">Baca Selengkapnya</a>
+              <a className="text-cyan-500 hover:text-gray-700" href="https://docs.google.com/document/d/1UkaWKN-Yq2uNZ0g_rWKUJzA2rLPCqLXU/edit?usp=sharing&ouid=109091264021396196762&rtpof=true&sd=true" target="blank">Baca Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -585,7 +600,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </div>
       <div className="py-20"></div>
-    </div>
+    </ScrollSpy>
   );
 }
